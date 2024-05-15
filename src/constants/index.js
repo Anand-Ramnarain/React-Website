@@ -268,12 +268,12 @@ export const socials = [
     id: "0",
     title: "Github",
     iconUrl: github,
-    url: "#",
+    url: "https://github.com/Anand-Ramnarain/React-Website",
   },
   {
     id: "1",
     title: "Website",
     iconUrl: arrow,
-    url: "#",
+    url: "https://github.com/Anand-Ramnarain/React-Website",
   },
 ];
