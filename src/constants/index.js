@@ -1,25 +1,23 @@
 import {
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
+  hope,
+  attack,
+  menace,
+  returns,
+  revenge,
+  strike,
   chromecast,
   disc02,
   discord,
-  discordBlack,
-  facebook,
   figma,
-  file02,
+  jedi,
   framer,
-  homeSmile,
-  instagram,
+  rebel,
   notification2,
   notification3,
   notification4,
   notion,
   photoshop,
-  plusSquare,
+  sith,
   protopie,
   raindrop,
   recording01,
@@ -28,54 +26,44 @@ import {
   roadmap2,
   roadmap3,
   roadmap4,
-  searchMd,
+  saber,
   slack,
   sliders04,
-  telegram,
-  twitter,
-  yourlogo,
+  github,
+  arrow,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "About",
+    url: "#collaboration",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
-  {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
     title: "Roadmap",
     url: "#roadmap",
   },
   {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    id: "2",
+    title: "Films",
+    url: "#films",
   },
   {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    id: "3",
+    title: "Theory",
+    url: "#pricing",
+  },
+  {
+    id: "4",
+    title: "Art",
+    url: "#how-to-use",
   },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [rebel, sith, jedi, saber];
 
 export const notificationImages = [notification4, notification3, notification2];
-
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -225,7 +213,6 @@ export const pricing = [
     features: [
       "An advanced AI chatbot that can understand complex queries",
       "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
     ],
   },
   {
@@ -241,88 +228,52 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
+export const movies = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: hope,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: strike,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: returns,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: menace,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: attack,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: revenge,
   },
 ];
 
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
+    title: "Github",
+    iconUrl: github,
     url: "#",
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
+    title: "Website",
+    iconUrl: arrow,
     url: "#",
   },
 ];

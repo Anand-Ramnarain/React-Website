@@ -4,7 +4,7 @@ import Section from "./Section";
 import Tagline from "./TagLine";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
-import { Gradient } from "./design/Roadmap";
+import { Gradient } from "../design/Roadmap";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
@@ -60,6 +60,7 @@ const Roadmap = () => (
                   <h4 className="h4 mb-4">{item.title}</h4>
                   <p className="body-2 text-n-4">{item.text}</p>
                 </div>
+                <Button href="/roadmap">Read More</Button>
               </div>
             </div>
           );
