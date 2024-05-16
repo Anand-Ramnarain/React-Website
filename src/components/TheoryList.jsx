@@ -1,4 +1,3 @@
-import { check } from "../assets";
 import { theorys } from "../constants";
 import Button from "../components/Button";
 

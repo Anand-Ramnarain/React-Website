@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Films from "../components/Films";
 import Collaboration from "../components/Collaboration";
-import Services from "../components/Services";
+import Art from "../components/Art";
 import Theory from "../components/Theory";
 import Roadmap from "../components/Roadmap";
 import Footer from "../components/Footer";
@@ -18,7 +18,7 @@ const Homepage = () => {
         <Roadmap />
         <Films />
         <Theory />
-        <Services />
+        <Art />
         <Footer />
       </div>
       <ButtonGradient />

@@ -5,8 +5,6 @@ import {
   returns,
   revenge,
   strike,
-  chromecast,
-  disc02,
   discord,
   figma,
   jedi,
@@ -20,15 +18,12 @@ import {
   sith,
   protopie,
   raindrop,
-  recording01,
-  recording03,
   roadmap1,
   roadmap2,
   roadmap3,
   roadmap4,
   saber,
   slack,
-  sliders04,
   github,
   arrow,
 } from "../assets";
@@ -57,7 +52,7 @@ export const navigation = [
   {
     id: "4",
     title: "Art",
-    url: "#how-to-use",
+    url: "#art",
   },
 ];
 
@@ -65,19 +60,7 @@ export const heroIcons = [rebel, sith, jedi, saber];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
-];
-
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-];
+export const artcheck = ["Star Wars", "Internet Art", "Planning"];
 
 export const roadmap = [
   {

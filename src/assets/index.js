@@ -12,11 +12,6 @@ import rebel from "./rebel.svg";
 import sith from "./sith.svg";
 import saber from "./sabers.svg";
 import jedi from "./jedi.svg";
-import recording03 from "./recording-03.svg";
-import recording01 from "./recording-01.svg";
-import disc02 from "./disc-02.svg";
-import chromecast from "./chrome-cast.svg";
-import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
 
@@ -36,8 +31,6 @@ import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
 import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -87,11 +80,6 @@ export {
   sith,
   saber,
   jedi,
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
   loading,
   background,
   curve,
@@ -108,8 +96,6 @@ export {
   raindrop,
   slack,
   service1,
-  service2,
-  service3,
   lines,
   stars,
   coins,
