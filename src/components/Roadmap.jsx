@@ -8,10 +8,10 @@ import { Gradient } from "../design/Roadmap";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
-    <div className="container md:pb-10">
+    <article className="container md:pb-10">
       <Heading tag="AWAKEN THE FORCE" title="My design thinking" />
 
-      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
+      <section className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
 
@@ -23,7 +23,7 @@ const Roadmap = () => (
               key={item.id}
             >
               <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
-                <div className="absolute top-0 left-0 max-w-full">
+                <figure className="absolute top-0 left-0 max-w-full">
                   <img
                     className="w-full"
                     src={grid}
@@ -31,7 +31,7 @@ const Roadmap = () => (
                     height={550}
                     alt="Grid"
                   />
-                </div>
+                </figure>
                 <div className="relative z-1">
                   <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <Tagline>{item.date}</Tagline>
@@ -69,12 +69,12 @@ const Roadmap = () => (
         })}
 
         <Gradient />
-      </div>
+      </section>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="/roadmap">Our roadmap</Button>
       </div>
-    </div>
+    </article>
   </Section>
 );
 

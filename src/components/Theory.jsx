@@ -7,7 +7,7 @@ import { LeftLine, RightLine } from "../design/Theory";
 const Theory = () => {
   return (
     <Section className="overflow-hidden" id="theory">
-      <div className="container relative z-2">
+      <article className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
             src={smallSphere}
@@ -29,11 +29,11 @@ const Theory = () => {
 
         <Heading tag="BECOME ONE WITH THE FORCE" title="The Theory Of It All" />
 
-        <div className="relative">
+        <section className="relative">
           <TheoryList />
           <LeftLine />
           <RightLine />
-        </div>
+        </section>
 
         <div className="flex justify-center mt-10">
           <a
@@ -43,7 +43,7 @@ const Theory = () => {
             See All Theorys
           </a>
         </div>
-      </div>
+      </article>
     </Section>
   );
 };
