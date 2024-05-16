@@ -19,16 +19,16 @@ import curve from "./hero/curve.png";
 import screen from "./hero/screen.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
-import curve1 from "./collaboration/curve-1.svg";
-import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import curve1 from "./about/curve-1.svg";
+import curve2 from "./about/curve-2.svg";
+import css from "./about/css.png";
+import githubs from "./about/githubs.png";
+import java from "./about/javascript.png";
+import light from "./about/light.png";
+import reacts from "./about/react.png";
+import order from "./about/order.png";
+import sLogo from "./about/sithlogo.png";
+import rebelLogo from "./about/rebellogo.png";
 
 import service1 from "./art/service-1.png";
 
@@ -87,14 +87,14 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
+  css,
+  light,
+  java,
+  githubs,
+  reacts,
+  order,
+  sLogo,
+  rebelLogo,
   service1,
   lines,
   stars,

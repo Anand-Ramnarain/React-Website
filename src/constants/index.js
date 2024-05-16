@@ -5,34 +5,34 @@ import {
   returns,
   revenge,
   strike,
-  discord,
-  figma,
   jedi,
-  framer,
   rebel,
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
   sith,
-  protopie,
-  raindrop,
   roadmap1,
   roadmap2,
   roadmap3,
   roadmap4,
   saber,
-  slack,
   github,
   arrow,
+  css,
+  light,
+  java,
+  githubs,
+  reacts,
+  order,
+  sLogo,
+  rebelLogo,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
     title: "About",
-    url: "#collaboration",
+    url: "#about",
   },
   {
     id: "1",
@@ -98,79 +98,78 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+export const aboutText =
+  "Once you start down the dark path, forever will it dominate your destiny. Consume you, it will.";
 
-export const collabContent = [
+export const aboutContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Star Wars",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "React",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Web Development",
   },
 ];
 
-export const collabApps = [
+export const aboutApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "CSS",
+    icon: css,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "JavaScript",
+    icon: java,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "Github",
+    icon: githubs,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Sabers",
+    icon: light,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "React",
+    icon: reacts,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Jedi Order",
+    icon: order,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "Sith Order",
+    icon: sLogo,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Rebel",
+    icon: rebelLogo,
     width: 38,
     height: 32,
   },
@@ -200,34 +199,34 @@ export const theorys = [
 export const movies = [
   {
     id: "0",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "./src/assets/films/card-1.svg",
     imageUrl: hope,
   },
   {
     id: "1",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: "./src/assets/films/card-2.svg",
     imageUrl: strike,
     light: true,
   },
   {
     id: "2",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: "./src/assets/films/card-3.svg",
     imageUrl: returns,
   },
   {
     id: "3",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: "./src/assets/films/card-4.svg",
     imageUrl: menace,
     light: true,
   },
   {
     id: "4",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: "./src/assets/films/card-5.svg",
     imageUrl: attack,
   },
   {
     id: "5",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: "./src/assets/films/card-6.svg",
     imageUrl: revenge,
   },
 ];

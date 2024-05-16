@@ -1,20 +1,18 @@
 import { brainwaveSymbol, check } from "../assets";
-import { collabApps, collabContent, collabText } from "../constants";
+import { aboutApps, aboutContent, aboutText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { LeftCurve, RightCurve } from "../design/About";
 
-const Collaboration = () => {
+const About = () => {
   return (
-    <Section crosses id="collaboration">
+    <Section crosses id="about">
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
-          </h2>
+          <h2 className="h2 mb-4 md:mb-8">A Look Into What This Is About</h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
-            {collabContent.map((item) => (
+            {aboutContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
                   <img src={check} width={24} height={24} alt="check" />
@@ -27,12 +25,12 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button>Learn More</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            {collabText}
+            {aboutText}
           </p>
 
           <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
@@ -50,7 +48,7 @@ const Collaboration = () => {
             </div>
 
             <ul>
-              {collabApps.map((app, index) => (
+              {aboutApps.map((app, index) => (
                 <li
                   key={app.id}
                   className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${
@@ -83,4 +81,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default About;
