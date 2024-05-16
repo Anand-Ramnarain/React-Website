@@ -30,10 +30,10 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
-import service1 from "./services/service-1.png";
+import service1 from "./art/service-1.png";
 
-import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.svg";
+import lines from "./theory/lines.svg";
+import stars from "./theory/stars.svg";
 
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
