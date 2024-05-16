@@ -179,7 +179,7 @@ export const theorys = [
   {
     id: "0",
     title: "Essay",
-    description: "AI chatbot, personalized recommendations",
+    description: "Pokemon",
     link: "#",
   },
   {
