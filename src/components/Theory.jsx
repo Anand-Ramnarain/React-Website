@@ -1,12 +1,12 @@
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
-import PricingList from "./PricingList";
-import { LeftLine, RightLine } from "./design/Pricing";
+import TheoryList from "./TheoryList";
+import { LeftLine, RightLine } from "../design/Theory";
 
-const Pricing = () => {
+const Theory = () => {
   return (
-    <Section className="overflow-hidden" id="pricing">
+    <Section className="overflow-hidden" id="theory">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
@@ -27,13 +27,10 @@ const Pricing = () => {
           </div>
         </div>
 
-        <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
-        />
+        <Heading tag="BECOME ONE WITH THE FORCE" title="The Theory Of It All" />
 
         <div className="relative">
-          <PricingList />
+          <TheoryList />
           <LeftLine />
           <RightLine />
         </div>
@@ -41,9 +38,9 @@ const Pricing = () => {
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="/theorys"
           >
-            See the full details
+            See All Theorys
           </a>
         </div>
       </div>
@@ -51,4 +48,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Theory;

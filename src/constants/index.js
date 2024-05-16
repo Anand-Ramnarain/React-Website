@@ -52,7 +52,7 @@ export const navigation = [
   {
     id: "3",
     title: "Theory",
-    url: "#pricing",
+    url: "#theory",
   },
   {
     id: "4",
@@ -193,38 +193,24 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
+export const theorys = [
   {
     id: "0",
-    title: "Basic",
+    title: "Essay",
     description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    link: "#",
   },
   {
     id: "1",
-    title: "Premium",
+    title: "Artwork Theory",
     description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-    ],
+    link: "#",
   },
   {
     id: "2",
-    title: "Enterprise",
+    title: "Independant Research",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    link: null,
   },
 ];
 
