@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom"; // Import Link from React Router
 import { theorys } from "../constants";
 import Button from "../components/Button";
 
@@ -15,13 +17,12 @@ const TheoryList = () => {
             {item.description}
           </p>
 
-          <Button className="w-full mb-6" href={item.link}>
-            {item.link === "#"
-              ? "Read more"
-              : item.link
-              ? "Read more"
-              : "Still coming"}
-          </Button>
+          {/* Use Link component instead of Button */}
+          <Link to={`/essay/${item.id}`}>
+            <Button className="w-full mb-6">
+              {item.link === "#" ? "Read more" : "Read more"}
+            </Button>
+          </Link>
         </section>
       ))}
     </section>
