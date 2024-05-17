@@ -6,6 +6,7 @@ import { GradientLight, CardBorder } from "../design/TheoryWorks";
 import ClipPath from "../assets/svg/ClipPath";
 import { design } from "../constants/information"; // Import theorywork data
 import ButtonGradient from "../assets/svg/ButtonGradient";
+import { Link } from "react-router-dom"; // Import Link from React Router
 
 const DesignWorks = () => {
   const [works, setWorks] = useState([]);
@@ -38,7 +39,9 @@ const DesignWorks = () => {
                   {renderShortenedParagraph(work.content)}
                 </p>
                 <section>
-                  <Button href={work.url}>Read More</Button>
+                  <Button as={Link} to={`/design/${work.id}`}>
+                    Read More
+                  </Button>
                 </section>
               </section>
 
