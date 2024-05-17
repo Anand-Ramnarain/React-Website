@@ -71,6 +71,7 @@ export const roadmap = [
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
+    url: "#wireframes",
   },
   {
     id: "1",
@@ -79,6 +80,7 @@ export const roadmap = [
     date: "May 2024",
     status: "progress",
     imageUrl: roadmap3,
+    url: "#style",
   },
   {
     id: "2",
@@ -87,6 +89,7 @@ export const roadmap = [
     date: "May 2024",
     status: "progress",
     imageUrl: roadmap2,
+    url: "#ui",
   },
   {
     id: "3",
@@ -95,6 +98,7 @@ export const roadmap = [
     date: "May 2024",
     status: "done",
     imageUrl: roadmap4,
+    url: "#whystar",
   },
 ];
 
@@ -180,19 +184,19 @@ export const theorys = [
     id: "0",
     title: "Essay",
     description: "Pokemon",
-    link: "#",
+    link: "#essay",
   },
   {
     id: "1",
     title: "Artwork Theory",
     description: "Advanced AI chatbot, priority support, analytics dashboard",
-    link: "#",
+    link: "#artresearch",
   },
   {
     id: "2",
     title: "Independant Research",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
-    link: null,
+    link: "#independent",
   },
 ];
 

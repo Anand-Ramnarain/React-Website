@@ -61,7 +61,7 @@ const Roadmap = () => (
                   <p className="body-2 text-n-4">{item.text}</p>
                 </div>
                 <div className="mt-12">
-                  <Button href="/roadmap">Read More</Button>
+                  <Button href={item.url}>Read More</Button>
                 </div>
               </div>
             </div>
