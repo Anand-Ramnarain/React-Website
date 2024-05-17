@@ -3,6 +3,7 @@ import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
 import TheoryList from "./TheoryList";
 import { LeftLine, RightLine } from "../design/Theory";
+import { Link } from "react-router-dom";
 
 const Theory = () => {
   return (
@@ -36,12 +37,12 @@ const Theory = () => {
         </section>
 
         <section className="flex justify-center mt-10">
-          <a
+          <Link
+            to="/theoryworks" // Specify the path to the TheoryWorks page
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/theorys"
           >
-            See All Theorys
-          </a>
+            See All Theories
+          </Link>
         </section>
       </article>
     </Section>

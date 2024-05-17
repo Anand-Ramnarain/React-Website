@@ -58,6 +58,7 @@ export const design = [
   {
     id: "0",
     title: "Wireframes",
+    date: "May 2024",
     picture: null,
     content: ["is", "sas"],
     url: "#wireframes",
@@ -65,6 +66,7 @@ export const design = [
   {
     id: "1",
     title: "Style Guide",
+    date: "May 2024",
     picture: null,
     content: ["is", "sas"],
     url: "#style",
@@ -72,6 +74,7 @@ export const design = [
   {
     id: "2",
     title: "UI & UX",
+    date: "May 2024",
     picture: null,
     content: ["is", "sas"],
     url: "#ui",
@@ -79,6 +82,7 @@ export const design = [
   {
     id: "3",
     title: "Why Star Wars?",
+    date: "May 2024",
     picture: null,
     content: ["is", "sas"],
     url: "#whystar",
