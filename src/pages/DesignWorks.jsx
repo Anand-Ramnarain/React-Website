@@ -5,6 +5,7 @@ import Button from "../components/Button";
 import { GradientLight, CardBorder } from "../design/TheoryWorks";
 import ClipPath from "../assets/svg/ClipPath";
 import { design } from "../constants/information"; // Import theorywork data
+import ButtonGradient from "../assets/svg/ButtonGradient";
 
 const DesignWorks = () => {
   const [works, setWorks] = useState([]);
@@ -63,6 +64,7 @@ const DesignWorks = () => {
               <ClipPath />
             </article>
           ))}
+          <ButtonGradient />
         </section>
       </article>
     </Section>
