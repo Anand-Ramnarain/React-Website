@@ -1,4 +1,4 @@
-export const ArtEssay = [
+export const theorywork = [
   {
     id: "0",
     title: "Critical Analysis Essay on Net/Web Art: Twitch Plays Pokémon",
@@ -28,5 +28,52 @@ export const ArtEssay = [
       "• Carrier, D. 2020. Hyperallergic. The Work of Art in the Age of the Internet. Online. https://hyperallergic.com/563938/the-work-of-art-in-the-age-of-the-internet/. 2024-04-25",
       "• Danae. 2019. Medium. Net Art, Post-internet Art, New Aesthetics: The Fundamentals of Art on the Internet. Online. https://medium.com/danae/net-art-post-internet-art-new-aesthetics-the-fundamentals-of-art-on-the-internet-55dcbd9d6a5. 2024-04-25",
     ],
+  },
+  {
+    id: "1",
+    title: "Art Research",
+    date: "May 2024",
+    paragraphs: ["hi", "cake"],
+    Bibliography: [
+      "• Gintere, I. 2019. Society. Integration. Education. A new digital art game: the art of the future. Proceedings of the International Scientific Conference. Volume IV. Pp: 346-360.",
+      "• Mailloux, S. 1983. New Literary History. Convention and Context. Vol. 14. Pp: 399-407.",
+    ],
+  },
+  {
+    id: "2",
+    title: "Independent Research",
+    date: "May 2024",
+    paragraphs: ["hi", "cake"],
+    Bibliography: [
+      "• Gintere, I. 2019. Society. Integration. Education. A new digital art game: the art of the future. Proceedings of the International Scientific Conference. Volume IV. Pp: 346-360.",
+      "• Mailloux, S. 1983. New Literary History. Convention and Context. Vol. 14. Pp: 399-407.",
+    ],
+  },
+];
+
+export const design = [
+  {
+    id: "0",
+    title: "Wireframes",
+    picture: null,
+    content: ["is", "sas"],
+  },
+  {
+    id: "1",
+    title: "Style Guide",
+    picture: null,
+    content: ["is", "sas"],
+  },
+  {
+    id: "2",
+    title: "UI & UX",
+    picture: null,
+    content: ["is", "sas"],
+  },
+  {
+    id: "3",
+    title: "Why Star Wars?",
+    picture: null,
+    content: ["is", "sas"],
   },
 ];
