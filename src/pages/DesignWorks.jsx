@@ -32,7 +32,7 @@ const DesignWorks = () => {
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:w-[24rem] md:h-[28rem]"
               key={work.id}
             >
-              <section className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+              <section className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
                 <h5 className="h5 mb-5">{work.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{work.date}</p>
                 <p className="body-2 mb-6 text-n-3">

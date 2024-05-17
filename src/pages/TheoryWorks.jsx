@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Heading from "../components/Heading";
 import Section from "../components/Section";
 import Button from "../components/Button";
@@ -9,12 +8,6 @@ import ButtonGradient from "../assets/svg/ButtonGradient";
 import { Link } from "react-router-dom";
 
 const TheoryWorks = () => {
-  const [works, setWorks] = useState([]);
-
-  useEffect(() => {
-    setWorks(theorywork); // Set theorywork data to state
-  }, []);
-
   const renderShortenedParagraph = (paragraphs) => {
     // Truncate paragraphs to show only a few lines followed by ...
     const truncatedText = paragraphs.join(" ").substring(0, 150);
@@ -30,19 +23,19 @@ const TheoryWorks = () => {
         />
 
         <section className="flex flex-wrap gap-10 mb-10">
-          {works.map((work) => (
+          {theorywork.map((item) => (
             <article
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:w-[24rem] md:h-[28rem]"
-              key={work.id}
+              key={item.id}
             >
-              <section className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h5 mb-5">{work.title}</h5>
-                <p className="body-2 mb-6 text-n-3">{work.date}</p>
+              <section className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
+                <h5 className="h5 mb-5">{item.title}</h5>
+                <p className="body-2 mb-6 text-n-3">{item.date}</p>
                 <p className="body-2 mb-6 text-n-3">
-                  {renderShortenedParagraph(work.paragraphs)}
+                  {renderShortenedParagraph(item.paragraphs)}
                 </p>
                 <section>
-                  <Button as={Link} to={`/essay/${work.id}`}>
+                  <Button as={Link} to={`/essay/${item.id}`}>
                     Read More
                   </Button>
                 </section>
