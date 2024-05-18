@@ -6,7 +6,6 @@ import About from "../components/About";
 import Art from "../components/Art";
 import Theory from "../components/Theory";
 import Roadmap from "../components/Roadmap";
-import Footer from "../components/Footer";
 
 const Homepage = () => {
   return (
@@ -19,7 +18,6 @@ const Homepage = () => {
         <Films />
         <Theory />
         <Art />
-        <Footer />
       </div>
       <ButtonGradient />
     </>
