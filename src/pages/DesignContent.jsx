@@ -19,8 +19,8 @@ const DesignContent = ({ theories }) => {
   return (
     <div
       style={{
-        maxWidth: "800px",
-        margin: "0 auto",
+        maxWidth: "1000px",
+        margin: "100px auto",
         padding: "20px",
         position: "relative",
       }}

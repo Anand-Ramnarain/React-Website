@@ -88,3 +88,14 @@ export const design = [
     url: "#whystar",
   },
 ];
+
+export const about = [
+  {
+    id: "0",
+    title: "About",
+    date: "May 2024",
+    picture: null,
+    content: ["is", "sas"],
+    url: "#wireframes",
+  },
+];
