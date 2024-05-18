@@ -11,6 +11,7 @@ import sith from "./sith.svg";
 import saber from "./sabers.svg";
 import jedi from "./jedi.svg";
 import loading from "./loading.png";
+import close from "./close.png";
 
 import curve from "./hero/curve.png";
 import screen from "./hero/screen.jpg";
@@ -65,6 +66,7 @@ import arrow from "./socials/arrow.svg";
 export {
   brainwave,
   check,
+  close,
   check2,
   loading1,
   brainwaveSymbol,
