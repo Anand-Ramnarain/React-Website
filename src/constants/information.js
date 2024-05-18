@@ -43,14 +43,14 @@ export const theorywork = [
   },
   {
     id: "2",
-    title: "Independent Research",
+    title: "Exam Research",
     date: "May 2024",
     paragraphs: ["hi", "cake"],
     Bibliography: [
       "• Gintere, I. 2019. Society. Integration. Education. A new digital art game: the art of the future. Proceedings of the International Scientific Conference. Volume IV. Pp: 346-360.",
       "• Mailloux, S. 1983. New Literary History. Convention and Context. Vol. 14. Pp: 399-407.",
     ],
-    url: "#independent",
+    url: "#exam",
   },
 ];
 

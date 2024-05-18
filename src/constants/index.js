@@ -196,7 +196,7 @@ export const theorys = [
     id: "2",
     title: "Independant Research",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
-    link: "#independent",
+    link: "#exam",
   },
 ];
 
