@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom"; // Import useParams from React Router
+import Heading from "../components/Heading";
 
 const DesignContent = ({ theories }) => {
   const { id } = useParams(); // Get the id parameter from the URL
@@ -11,8 +12,7 @@ const DesignContent = ({ theories }) => {
 
   return (
     <div>
-      <h1>{theory.title}</h1>
-      {/* Render the design content */}
+      <Heading tag="Design" title={theory.title} />
       {theory.content.map((content, index) => (
         <p key={index}>{content}</p>
       ))}
