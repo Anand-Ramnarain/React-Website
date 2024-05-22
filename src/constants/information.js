@@ -200,6 +200,7 @@ export const design = [
       "- Colour Harmony: Balancing vibrant colours while maintaining readability can be challenging and requires continuous adjustment based on user feedback.",
       "- Minimalism: While effective, there is a risk of the design feeling too empty if not balanced with engaging content and interactive elements.",
       "The design decisions for my website reflect a comprehensive approach to creating an aesthetically pleasing, user-friendly, and modern interface. Each choice, from the vibrant colour scheme to the clean layout and thoughtful typography, is grounded in design theories, ensuring a cohesive and effective design. Continuous evaluation and refinement are essential to maintaining and improving the website's effectiveness. By embracing both the strengths and addressing the weaknesses, the design will continue to evolve, offering an optimal user experience and ensuring the site remains engaging and functional.",
+      "Note: I am still trying to figure out the transparent background, but for now i place an image behind the content that goes with the theme",
     ],
     url: "#style",
   },
