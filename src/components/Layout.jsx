@@ -1,11 +1,13 @@
 // Layout.js
 import React from "react";
 import Footer from "./Footer";
+import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
     <>
-      {children}
+      <Header />
+      <div style={{ padding: "20px" }}>{children}</div>
       <Footer />
     </>
   );

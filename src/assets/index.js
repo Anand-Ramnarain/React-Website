@@ -80,8 +80,28 @@ import wireframe from "./wireframes/WireFrame.png";
 import gif1 from "./gif/c3po.gif";
 import gif2 from "./gif/yoda.gif";
 
+import blue from "./colours/blue.png";
+import red from "./colours/red.png";
+import yellow from "./colours/yellow.png";
+import purple from "./colours/purple.png";
+
+import theoryImage1 from "./arttheory/theory1.png";
+import theoryImage2 from "./arttheory/theory2.png";
+import theoryImage3 from "./arttheory/theory3.png";
+import theoryImage4 from "./arttheory/theory4.png";
+import theoryImage5 from "./arttheory/theory5.png";
+
 export {
   brainwave,
+  red,
+  blue,
+  yellow,
+  purple,
+  theoryImage1,
+  theoryImage2,
+  theoryImage3,
+  theoryImage4,
+  theoryImage5,
   gif1,
   gif2,
   aboutpage,

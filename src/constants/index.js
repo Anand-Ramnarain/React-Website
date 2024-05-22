@@ -31,28 +31,33 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "About",
-    url: "#about",
+    title: "Home",
+    url: "/",
   },
   {
     id: "1",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "About",
+    url: "/#about",
   },
   {
     id: "2",
-    title: "Films",
-    url: "#films",
+    title: "Roadmap",
+    url: "/design",
   },
   {
     id: "3",
-    title: "Theory",
-    url: "#theory",
+    title: "Films",
+    url: "/#films",
   },
   {
     id: "4",
+    title: "Theory",
+    url: "/theoryworks",
+  },
+  {
+    id: "5",
     title: "Art",
-    url: "#art",
+    url: "/#art",
   },
 ];
 
