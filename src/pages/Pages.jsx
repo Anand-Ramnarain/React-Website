@@ -6,7 +6,8 @@ import TheoryWorks from "./TheoryWorks";
 import DesignWorks from "./DesignWorks";
 import EssayContent from "./EssayContent";
 import DesignContent from "./DesignContent";
-import { theorywork, design } from "../constants/information";
+import AboutContent from "./AboutContent";
+import { theorywork, design, about } from "../constants/information";
 
 const Pages = () => {
   return (
@@ -43,6 +44,7 @@ const Pages = () => {
       />
       {/* Define route for displaying design content */}
       <Route path="/design/:id" element={<DesignContent theories={design} />} />
+      <Route path="/about/:id" element={<AboutContent theories={about} />} />
     </Routes>
   );
 };

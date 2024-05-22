@@ -255,8 +255,7 @@ export const design = [
 export const about = [
   {
     id: "0",
-    title:
-      "Welcome to the Brainwave: Where Cybernetic Artistry Meets the Force",
+    title: "Welcome to the Brainwave: Where Artistry Meets the Force",
     date: "May 2024",
     picture: null,
     content: [
@@ -270,6 +269,6 @@ export const about = [
       "Whether you're a seasoned web designer, a die-hard Star Wars fan, or simply a curious explorer of the digital world, there's a place for you on this website. Together, let's forge a future where artistry and technology converge, and the force of imagination propels us to new heights.",
       "May the pixels be with you, always.",
     ],
-    url: "#wireframes",
+    url: "#about",
   },
 ];

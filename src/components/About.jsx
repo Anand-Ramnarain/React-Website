@@ -3,6 +3,7 @@ import { aboutApps, aboutContent, aboutText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "../design/About";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -25,7 +26,9 @@ const About = () => {
             ))}
           </ul>
 
-          <Button>Learn More</Button>
+          <Button as={Link} to={`/about/0`}>
+            Learn More
+          </Button>
         </article>
 
         <article className="lg:ml-auto xl:w-[38rem] mt-4">
