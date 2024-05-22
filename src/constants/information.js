@@ -112,12 +112,9 @@ export const theorywork = [
   {
     id: "2",
     title: "Exam Research",
-    date: "May 2024",
-    paragraphs: ["hi", "cake"],
-    Bibliography: [
-      "• Gintere, I. 2019. Society. Integration. Education. A new digital art game: the art of the future. Proceedings of the International Scientific Conference. Volume IV. Pp: 346-360.",
-      "• Mailloux, S. 1983. New Literary History. Convention and Context. Vol. 14. Pp: 399-407.",
-    ],
+    date: "June 2024",
+    paragraphs: [null],
+    Bibliography: [null],
     url: "#exam",
   },
 ];
@@ -128,15 +125,15 @@ export const design = [
     title: "Wireframes",
     date: "May 2024",
     picture: [
-      aboutpage,
-      artpage,
+      wireframe,
       cardpage,
       contentWire,
-      contentHigh,
-      designPage,
-      cardhigh,
       heroPage,
-      wireframe,
+      aboutpage,
+      designPage,
+      contentHigh,
+      cardhigh,
+      artpage,
     ],
 
     content: [
@@ -151,9 +148,7 @@ export const design = [
     id: "1",
     title: "Style Guide",
     date: "May 2024",
-    picture: space,
-    sora,
-    source,
+    picture: [space, sora, source],
     content: [
       "When creating a compelling and user-friendly website, there must be a detailed consideration of various design elements, including colour, layout, typography, and other significant design decisions. In my style guide, we will delve deeply into these aspects, defending each choice, evaluating its impact, and reflecting on it to inform the design. It also considers the strengths and weaknesses of these decisions, relating them to relevant theories and research in interactive media design.",
       "Colour Scheme",

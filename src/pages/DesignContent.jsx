@@ -1,20 +1,20 @@
 import React, { useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom"; // Import useNavigate
+import { useParams, useNavigate } from "react-router-dom";
 import Heading from "../components/Heading";
-import { close } from "../assets"; // Import your close image
+import { close } from "../assets";
+import Slideshow from "../components/Slideshow"; // Import the Slideshow component
 
 const DesignContent = ({ theories }) => {
   const navigate = useNavigate();
-  const { id } = useParams(); // Get the id parameter from the URL
-  const theory = theories.find((item) => item.id === id); // Find the theory with the matching id
+  const { id } = useParams();
+  const theory = theories.find((item) => item.id === id);
 
   useEffect(() => {
-    // Scroll to the top when component mounts
     window.scrollTo(0, 0);
-  }, []); // Empty dependency array ensures this effect runs only once
+  }, []);
 
   const goBack = () => {
-    navigate(-1); // Use navigate(-1) to go back
+    navigate(-1);
   };
 
   if (!theory) {
@@ -30,10 +30,10 @@ const DesignContent = ({ theories }) => {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust opacity as needed
-          zIndex: 9999, // Ensure it's above other content
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          zIndex: 9999,
         }}
-        onClick={goBack} // Allow clicking outside the box to go back
+        onClick={goBack}
       ></div>
       <div
         style={{
@@ -43,11 +43,9 @@ const DesignContent = ({ theories }) => {
           position: "relative",
           borderRadius: "10px",
           boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
-          zIndex: 10000, // Ensure it's above the overlay
-          // backgroundColor: "#fff", // Background color of the box
+          zIndex: 10000,
         }}
       >
-        {/* Close button */}
         <div
           style={{
             position: "absolute",
@@ -70,6 +68,9 @@ const DesignContent = ({ theories }) => {
               {content}
             </p>
           ))}
+          {theory.picture && theory.picture.length > 0 && (
+            <Slideshow images={theory.picture} />
+          )}
         </div>
       </div>
     </>
