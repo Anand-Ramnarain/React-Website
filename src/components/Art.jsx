@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import { service1, check } from "../assets";
 import { artcheck } from "../constants";
 import { Gradient } from "../design/Art";
+import { Link } from "react-router-dom";
 
 import Generating from "./Generating";
 
@@ -42,8 +43,8 @@ const Art = () => {
                   </li>
                 ))}
               </ul>
-              <Button className="w-full mb-6" href="#">
-                Show Art
+              <Button as={Link} to={`/art/0`}>
+                View Art
               </Button>
             </section>
 

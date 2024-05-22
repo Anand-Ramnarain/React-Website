@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import Heading from "../components/Heading";
 import TagLine from "../components/TagLine";
 import { close } from "../assets";
+import Slideshow from "../components/Slideshow";
 
 const EssayContent = ({ theories }) => {
   const { id } = useParams();
@@ -81,6 +82,9 @@ const EssayContent = ({ theories }) => {
             {biblio}
           </p>
         ))}
+        {theory.picture && theory.picture.length > 0 && (
+          <Slideshow images={theory.picture} />
+        )}
       </div>
     </>
   );

@@ -7,7 +7,8 @@ import DesignWorks from "./DesignWorks";
 import EssayContent from "./EssayContent";
 import DesignContent from "./DesignContent";
 import AboutContent from "./AboutContent";
-import { theorywork, design, about } from "../constants/information";
+import ArtContent from "./ArtContent";
+import { theorywork, design, about, art } from "../constants/information";
 
 const Pages = () => {
   return (
@@ -45,6 +46,7 @@ const Pages = () => {
       {/* Define route for displaying design content */}
       <Route path="/design/:id" element={<DesignContent theories={design} />} />
       <Route path="/about/:id" element={<AboutContent theories={about} />} />
+      <Route path="/art/:id" element={<ArtContent theories={art} />} />
     </Routes>
   );
 };

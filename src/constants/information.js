@@ -11,6 +11,8 @@ import {
   sora,
   source,
   space,
+  gif1,
+  gif2,
 } from "../assets";
 
 export const theorywork = [
@@ -18,6 +20,7 @@ export const theorywork = [
     id: "0",
     title: "Critical Analysis Essay on Net/Web Art: Twitch Plays Pokémon",
     date: "May 2024",
+    picture: null,
     paragraphs: [
       "Twitch Plays Pokémon (TPP) stands as an innovative example of net/web art, showing the relationship between technology, interactivity, and collective creativity. This project started in 2014 where it redefined the boundaries of traditional gaming by using the power of the internet to allow thousands of users to simultaneously control a single game of Pokémon. Through its unique approach, TPP expands the meaning of gaming and evolved into a net/web art form that engages with people on conceptual, aesthetic, and technical levels. This essay aims to examine Twitch Plays Pokémon within the context of net/web art, exploring its innovative use of the internet as a medium for artistic expression.",
       "First, we need to know what Twitch Plays Pokémon is. Twitch Plays Pokémon was when viewers could type commands in a chat box on the Twitch streaming service to control the game Pokémon. Each command was like a vote, and the game would do whatever command got the most votes. It was crazy and chaotic because there were so many people typing commands, the game became a chaotic but fascinating experience. Twitch Plays Pokémon began as an experiment by an anonymous programmer who combined a special program with a Pokémon game emulator. They did this because they wanted to see if they could make a game that thousands of people could play together at the same time.",
@@ -49,6 +52,7 @@ export const theorywork = [
     id: "1",
     title: "Art Research",
     date: "May 2024",
+    picture: null,
     paragraphs: [
       "In the realm of digital art, the merging of technology and creativity offers unique opportunities to create immersive and interactive experiences. One compelling concept that is drawn to me is to create an interactive, dynamic artwork that visualizes the iconic image of Darth Vader or the Star Wars logo using binary numbers. This artwork will progressively reveal the image on a black screen as the binary numbers appear, forming the image in real time. This section outlines the development process in theory, strengths and weaknesses, and the theoretical groundwork necessary for creating this piece using React. Which should evoke a sense of digital transformation and homage to the classic sci-fi saga.",
       "Description of Proposed Internet Artwork",
@@ -113,7 +117,8 @@ export const theorywork = [
     id: "2",
     title: "Exam Research",
     date: "June 2024",
-    paragraphs: [null],
+    paragraphs: ["STILL TO COME"],
+    picture: [gif1, gif2],
     Bibliography: [null],
     url: "#exam",
   },
@@ -268,5 +273,14 @@ export const about = [
       "May the pixels be with you, always.",
     ],
     url: "#about",
+  },
+];
+
+export const art = [
+  {
+    id: "0",
+    title: "Binary Art",
+    picture: [gif2, gif1],
+    content: ["STILL TO COME"],
   },
 ];

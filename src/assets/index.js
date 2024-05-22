@@ -77,8 +77,13 @@ import cardhigh from "./wireframes/Films_All-design_theory.png";
 import heroPage from "./wireframes/Hero.png";
 import wireframe from "./wireframes/WireFrame.png";
 
+import gif1 from "./gif/c3po.gif";
+import gif2 from "./gif/yoda.gif";
+
 export {
   brainwave,
+  gif1,
+  gif2,
   aboutpage,
   artpage,
   cardpage,
