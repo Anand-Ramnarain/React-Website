@@ -33,30 +33,30 @@ const EssayContent = ({ theories }) => {
   }, []); // Empty dependency array ensures this effect runs only once
 
   if (!theory) {
-    return <div>Theory not found</div>;
+    return <section>Theory not found</section>;
   }
 
   return (
     <>
       {/* Transparent overlay with random background image */}
-      <div
+      <section
         style={{
           position: "fixed",
           top: 0,
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 5)", // Adjust opacity as needed
+          backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust opacity as needed
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           zIndex: 9999, // Ensure it's above other content
         }}
         onClick={goBack} // Allow clicking outside the box to go back
-      ></div>
+      ></section>
 
       {/* Main content */}
-      <div
+      <article
         style={{
           maxWidth: "1000px",
           margin: "100px auto 0",
@@ -69,7 +69,7 @@ const EssayContent = ({ theories }) => {
         }}
       >
         {/* Close button */}
-        <div
+        <figure
           style={{
             position: "absolute",
             top: "10px",
@@ -83,7 +83,7 @@ const EssayContent = ({ theories }) => {
             alt="Close"
             style={{ width: "30px", height: "30px" }}
           />
-        </div>
+        </figure>
 
         <Heading tag="Research" title={theory.title} />
         {theory.paragraphs.map((paragraph, index) => (
@@ -100,7 +100,7 @@ const EssayContent = ({ theories }) => {
         {theory.picture && theory.picture.length > 0 && (
           <Slideshow images={theory.picture} />
         )}
-      </div>
+      </article>
     </>
   );
 };

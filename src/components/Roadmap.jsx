@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from React Router
+import { Link } from "react-router-dom";
 import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
@@ -18,13 +18,13 @@ const Roadmap = () => (
           const status = item.status === "done" ? "Done" : "In progress";
 
           return (
-            <div
+            <article
               className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
                 item.colorful ? "bg-conic-gradient" : "bg-n-6"
               }`}
               key={item.id}
             >
-              <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
+              <section className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                 <figure className="absolute top-0 left-0 max-w-full">
                   <img
                     className="w-full"
@@ -35,7 +35,7 @@ const Roadmap = () => (
                   />
                 </figure>
                 <div className="relative z-1">
-                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
+                  <header className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <Tagline>{item.date}</Tagline>
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
@@ -48,9 +48,9 @@ const Roadmap = () => (
                       />
                       <div className="tagline">{status}</div>
                     </div>
-                  </div>
+                  </header>
 
-                  <div className="mb-10 -my-10 -mx-15">
+                  <figure className="mb-10 -my-10 -mx-15">
                     <img
                       className="w-full"
                       src={item.imageUrl}
@@ -58,18 +58,17 @@ const Roadmap = () => (
                       height={426}
                       alt={item.title}
                     />
-                  </div>
+                  </figure>
                   <h4 className="h4 mb-4">{item.title}</h4>
                   <p className="body-2 text-n-4">{item.text}</p>
                 </div>
-                {/* Use Link component instead of Button */}
-                <div className="mt-12">
+                <section className="mt-12">
                   <Button as={Link} to={`/design/${item.id}`}>
                     Read More
                   </Button>
-                </div>
-              </div>
-            </div>
+                </section>
+              </section>
+            </article>
           );
         })}
 

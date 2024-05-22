@@ -26,8 +26,8 @@ const Slideshow = ({ images }) => {
           }
         `}
       </style>
-      <div ref={splideRef} className="splide">
-        <div className="splide__track">
+      <section ref={splideRef} className="splide">
+        <aside className="splide__track">
           <ul className="splide__list">
             {images &&
               images.map((pic, index) => (
@@ -36,8 +36,8 @@ const Slideshow = ({ images }) => {
                 </li>
               ))}
           </ul>
-        </div>
-      </div>
+        </aside>
+      </section>
     </>
   );
 };

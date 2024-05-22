@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Heading from "../components/Heading";
 import { close } from "../assets";
-import Slideshow from "../components/Slideshow"; // Import the Slideshow component
+import Slideshow from "../components/Slideshow";
 
 const importAll = (r) => r.keys().map(r);
 const filmImages = importAll(
@@ -16,10 +16,8 @@ const DesignContent = ({ theories }) => {
   const theory = theories.find((item) => item.id === id);
 
   useEffect(() => {
-    // Scroll to the top when component mounts
     window.scrollTo(0, 0);
 
-    // Randomly select one of the film images
     const randomImage =
       filmImages[Math.floor(Math.random() * filmImages.length)];
     setBackgroundImage(randomImage);
@@ -30,30 +28,28 @@ const DesignContent = ({ theories }) => {
   };
 
   if (!theory) {
-    return <div>Design not found</div>;
+    return <section>Design not found</section>;
   }
 
   return (
     <>
-      {/* Transparent overlay with random background image */}
-      <div
+      <section
         style={{
           position: "fixed",
           top: 0,
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust opacity as needed
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          zIndex: 9999, // Ensure it's above other content
+          zIndex: 9999,
         }}
-        onClick={goBack} // Allow clicking outside the box to go back
-      ></div>
+        onClick={goBack}
+      ></section>
 
-      {/* Main content */}
-      <div
+      <section
         style={{
           maxWidth: "1000px",
           margin: "100px auto 0",
@@ -61,11 +57,11 @@ const DesignContent = ({ theories }) => {
           position: "relative",
           borderRadius: "10px",
           boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
-          zIndex: 10000, // Ensure it's above the overlay
-          backgroundColor: "#0a0321", // Background color of the box
+          zIndex: 10000,
+          backgroundColor: "#0a0321",
         }}
       >
-        <div
+        <figure
           style={{
             position: "absolute",
             top: "10px",
@@ -79,8 +75,10 @@ const DesignContent = ({ theories }) => {
             alt="Close"
             style={{ width: "30px", height: "30px" }}
           />
-        </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
+        </figure>
+        <article
+          style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
+        >
           <Heading tag="Design" title={theory.title} />
           {theory.content.map((content, index) => (
             <p key={index} style={{ marginBottom: "10px" }}>
@@ -90,8 +88,8 @@ const DesignContent = ({ theories }) => {
           {theory.picture && theory.picture.length > 0 && (
             <Slideshow images={theory.picture} />
           )}
-        </div>
-      </div>
+        </article>
+      </section>
     </>
   );
 };

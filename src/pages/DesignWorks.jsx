@@ -47,22 +47,12 @@ const DesignWorks = () => {
 
               <GradientLight />
 
-              <div
+              <aside
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
                 <CardBorder />
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
-                  {/* If you have an image for the theorywork, you can include it here */}
-                  {/* <img
-                      src={work.imageUrl}
-                      width={380}
-                      height={362}
-                      alt={work.title}
-                      className="w-full h-full object-cover"
-                    /> */}
-                </div>
-              </div>
+              </aside>
 
               <ClipPath />
             </article>

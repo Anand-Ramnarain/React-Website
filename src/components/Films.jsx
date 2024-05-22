@@ -54,12 +54,12 @@ const Films = () => {
 
               <GradientLight />
 
-              <div
+              <section
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
                 <CardBorder />
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <section className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
                   {movies[index % movies.length].imageUrl && (
                     <img
                       src={movies[index % movies.length].imageUrl}
@@ -69,8 +69,8 @@ const Films = () => {
                       className="w-full h-full object-cover"
                     />
                   )}
-                </div>
-              </div>
+                </section>
+              </section>
 
               <ClipPath />
             </article>

@@ -11,20 +11,20 @@ const Homepage = () => {
   useScrollToSection();
   return (
     <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+      <section className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Hero />
-        <div id="about">
+        <section id="about">
           <About />
-        </div>
+        </section>
         <Roadmap />
-        <div id="films">
+        <section id="films">
           <Films />
-        </div>
+        </section>
         <Theory />
-        <div id="art">
+        <section id="art">
           <Art />
-        </div>
-      </div>
+        </section>
+      </section>
       <ButtonGradient />
     </>
   );
