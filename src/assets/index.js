@@ -63,8 +63,34 @@ import attack from "./films/attack.png";
 import github from "./socials/github.svg";
 import arrow from "./socials/arrow.svg";
 
+import sora from "./fonts/Sora.png";
+import source from "./fonts/Source_Code_Pro.png";
+import space from "./fonts/Space Grotesk.png";
+
+import aboutpage from "./wireframes/About.png";
+import artpage from "./wireframes/Art.png";
+import cardpage from "./wireframes/Cards.jpg";
+import contentWire from "./wireframes/Content-Page_wire.jpg";
+import contentHigh from "./wireframes/Content-Page-high.png";
+import designPage from "./wireframes/Design.png";
+import cardhigh from "./wireframes/Films_All-design_theory.png";
+import heroPage from "./wireframes/Hero.png";
+import wireframe from "./wireframes/WireFrame.png";
+
 export {
   brainwave,
+  aboutpage,
+  artpage,
+  cardpage,
+  contentWire,
+  contentHigh,
+  designPage,
+  cardhigh,
+  heroPage,
+  wireframe,
+  sora,
+  source,
+  space,
   check,
   close,
   check2,

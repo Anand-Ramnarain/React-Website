@@ -66,7 +66,7 @@ export const roadmap = [
   {
     id: "0",
     title: "Wireframes",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    text: "The creation of this website began with a different approach compared to traditional methods. Instead of starting with...",
     date: "May 2024",
     status: "done",
     imageUrl: roadmap1,
@@ -76,7 +76,7 @@ export const roadmap = [
   {
     id: "1",
     title: "Style Guide",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    text: "When creating a compelling and user-friendly website, there must be a detailed consideration of various design elements...",
     date: "May 2024",
     status: "progress",
     imageUrl: roadmap3,
@@ -85,7 +85,7 @@ export const roadmap = [
   {
     id: "2",
     title: "UI & UX",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    text: "Creating an intuitive and engaging user interface (UI) and user experience (UX) for a website involves planning and...",
     date: "May 2024",
     status: "progress",
     imageUrl: roadmap2,
@@ -94,7 +94,7 @@ export const roadmap = [
   {
     id: "3",
     title: "Why Star Wars?",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    text: "The Star Wars franchise, with its rich lore, iconic characters, and visually stunning universe, provides a stepping stone for...",
     date: "May 2024",
     status: "done",
     imageUrl: roadmap4,
@@ -182,20 +182,23 @@ export const aboutApps = [
 export const theorys = [
   {
     id: "0",
-    title: "Essay",
-    description: "Pokemon",
+    title: "Analysis Of Net.Art",
+    description:
+      "Twitch Plays Pokémon (TPP) stands as an innovative example of net/web art, showing the relationship between technology, interactivity, and collective creativity. This project started in 2014 where it redefined the boundaries of traditional gaming by using the power of the internet to allow thousands of users to simultaneously control a single game of Pokémon. Through its unique approach, TPP expands the meaning of gaming and evolved into a net/web art form that engages with people on conceptual, aesthetic, and technical levels. This essay aims to examine Twitch Plays Pokémon within the context of net/web art, exploring its innovative use of...",
     link: "#essay",
   },
   {
     id: "1",
     title: "Artwork Theory",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    description:
+      "In the realm of digital art, the merging of technology and creativity offers unique opportunities to create immersive and interactive experiences. One compelling concept that is drawn to me is to create an interactive, dynamic artwork that visualizes the iconic image of Darth Vader or the Star Wars logo using binary numbers. This artwork will progressively reveal the image on a black screen as the binary numbers appear, forming the image in real time. This section outlines the development process in theory, strengths and weaknesses, and the theoretical groundwork necessary for creating this piece using React. Which should evoke a sense of digital...",
     link: "#artresearch",
   },
   {
     id: "2",
-    title: "Independant Research",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Exam Research",
+    description:
+      "Still To Come:Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero assumenda quaerat consequuntur. Est reiciendis mollitia provident enim dolores eveniet odio reprehenderit aspernatur laborum, nam suscipit nulla magni aperiam temporaLorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero assumenda quaerat consequuntur. Est reiciendis mollitia provident enim dolores eveniet odio reprehenderit aspernatur laborum, nam suscipit nulla magni aperiam temporaLorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero assumenda quaerat consequuntur. Est reiciendis mollitia provident enim dolores...",
     link: "#exam",
   },
 ];
