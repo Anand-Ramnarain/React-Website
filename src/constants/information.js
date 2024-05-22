@@ -13,6 +13,15 @@ import {
   space,
   gif1,
   gif2,
+  red,
+  blue,
+  yellow,
+  purple,
+  theoryImage1,
+  theoryImage2,
+  theoryImage3,
+  theoryImage4,
+  theoryImage5,
 } from "../assets";
 
 export const theorywork = [
@@ -52,7 +61,13 @@ export const theorywork = [
     id: "1",
     title: "Art Research",
     date: "May 2024",
-    picture: null,
+    picture: [
+      theoryImage1,
+      theoryImage2,
+      theoryImage3,
+      theoryImage4,
+      theoryImage5,
+    ],
     paragraphs: [
       "In the realm of digital art, the merging of technology and creativity offers unique opportunities to create immersive and interactive experiences. One compelling concept that is drawn to me is to create an interactive, dynamic artwork that visualizes the iconic image of Darth Vader or the Star Wars logo using binary numbers. This artwork will progressively reveal the image on a black screen as the binary numbers appear, forming the image in real time. This section outlines the development process in theory, strengths and weaknesses, and the theoretical groundwork necessary for creating this piece using React. Which should evoke a sense of digital transformation and homage to the classic sci-fi saga.",
       "Description of Proposed Internet Artwork",
@@ -153,7 +168,7 @@ export const design = [
     id: "1",
     title: "Style Guide",
     date: "May 2024",
-    picture: [space, sora, source],
+    picture: [space, sora, source, red, blue, yellow, purple],
     content: [
       "When creating a compelling and user-friendly website, there must be a detailed consideration of various design elements, including colour, layout, typography, and other significant design decisions. In my style guide, we will delve deeply into these aspects, defending each choice, evaluating its impact, and reflecting on it to inform the design. It also considers the strengths and weaknesses of these decisions, relating them to relevant theories and research in interactive media design.",
       "Colour Scheme",
