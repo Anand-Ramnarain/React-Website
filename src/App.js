@@ -1,12 +1,11 @@
 import React from "react";
-import Pages from "./pages/Pages";
-import { BrowserRouter as Router } from "react-router-dom";
+import Pages from "./pages/Pages"; // Ensure this path is correct for your project
 
 const App = () => {
   return (
-    <Router basename="/React-Website">
+    <section className="App">
       <Pages />
-    </Router>
+    </section>
   );
 };
 

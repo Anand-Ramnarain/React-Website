@@ -13,7 +13,6 @@ import { theorywork, design, about, art } from "../constants/information";
 const Pages = () => {
   return (
     <Routes>
-      {/* Wrap the first three routes in the Layout component */}
       <Route
         path="/"
         element={
@@ -38,12 +37,10 @@ const Pages = () => {
           </Layout>
         }
       />
-      {/* Define route for displaying essay content */}
       <Route
         path="/essay/:id"
         element={<EssayContent theories={theorywork} />}
       />
-      {/* Define route for displaying design content */}
       <Route path="/design/:id" element={<DesignContent theories={design} />} />
       <Route path="/about/:id" element={<AboutContent theories={about} />} />
       <Route path="/art/:id" element={<ArtContent theories={art} />} />
