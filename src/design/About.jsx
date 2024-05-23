@@ -1,5 +1,7 @@
+import React from "react";
 import { curve1, curve2 } from "../assets";
 
+// Define the RightCurve component
 export const RightCurve = () => {
   return (
     <section className="hidden absolute top-1/2 left-full w-[10.125rem] -mt-1 ml-10 pointer-events-none xl:block">
@@ -8,6 +10,12 @@ export const RightCurve = () => {
   );
 };
 
+/*
+  Component: LeftCurve
+  Purpose: Display a curve image on the left side of the page.
+*/
+
+// Define the LeftCurve component
 export const LeftCurve = () => {
   return (
     <section className="hidden absolute top-1/2 right-full w-[32.625rem] -mt-1 mr-10 pointer-events-none xl:block">
