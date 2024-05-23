@@ -5,7 +5,6 @@ import { service1, check } from "../assets";
 import { artcheck } from "../constants";
 import { Gradient } from "../design/Art";
 import { Link } from "react-router-dom";
-
 import Generating from "./Generating";
 
 const Art = () => {
@@ -18,7 +17,9 @@ const Art = () => {
         />
 
         <section className="relative">
+          {/* Main content and image */}
           <figure className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+            {/* Display the art image */}
             <aside className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -29,9 +30,11 @@ const Art = () => {
               />
             </aside>
 
+            {/* Information about Internet Art */}
             <section className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Internet Art</h4>
               <p className="body-2 mb-[3rem] text-n-3">Art within the Galaxy</p>
+              {/* List of art features */}
               <ul className="body-2">
                 {artcheck.map((item, index) => (
                   <li
@@ -39,10 +42,12 @@ const Art = () => {
                     className="flex items-start py-4 border-t border-n-6"
                   >
                     <img width={24} height={24} src={check} alt="check" />
+                    {/* Display each art feature */}
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
               </ul>
+              {/* Button to view more art */}
               <Button as={Link} to={`/art/0`}>
                 View Art
               </Button>

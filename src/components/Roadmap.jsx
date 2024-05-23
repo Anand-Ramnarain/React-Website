@@ -11,9 +11,12 @@ import { Gradient } from "../design/Roadmap";
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
     <article className="container md:pb-10">
+      {/* Heading */}
       <Heading tag="AWAKEN THE FORCE" title="My design thinking" />
 
+      {/* Roadmap items */}
       <section className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
+        {/* Maps each roadmap item so i i display it*/}
         {roadmap.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
 
@@ -24,6 +27,7 @@ const Roadmap = () => (
               }`}
               key={item.id}
             >
+              {/* Roadmap item details */}
               <section className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                 <figure className="absolute top-0 left-0 max-w-full">
                   <img
@@ -35,6 +39,7 @@ const Roadmap = () => (
                   />
                 </figure>
                 <div className="relative z-1">
+                  {/* Date and status */}
                   <header className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <Tagline>{item.date}</Tagline>
 
@@ -75,6 +80,7 @@ const Roadmap = () => (
         <Gradient />
       </section>
 
+      {/* Button to view entire roadmap */}
       <section className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button as={Link} to="/design">
           Our roadmap

@@ -1,5 +1,6 @@
 import SectionSvg from "../assets/svg/SectionSvg";
 
+// Define the Section functional component
 const Section = ({
   className,
   id,
@@ -9,6 +10,7 @@ const Section = ({
   children,
 }) => {
   return (
+    // Render the section element with provided props
     <section
       id={id}
       className={`
@@ -21,9 +23,11 @@ const Section = ({
     >
       {children}
 
+      {/* Horizontal stroke lines */}
       <section className="hidden absolute top-0 left-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:left-7.5 xl:left-10" />
       <section className="hidden absolute top-0 right-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:right-7.5 xl:right-10" />
 
+      {/* Crosses */}
       {crosses && (
         <>
           <section

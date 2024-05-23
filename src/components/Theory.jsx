@@ -9,6 +9,7 @@ const Theory = () => {
   return (
     <Section className="overflow-hidden" id="theory">
       <article className="container relative z-2">
+        {/* Hidden section for stars */}
         <section className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
             src={smallSphere}
@@ -28,14 +29,17 @@ const Theory = () => {
           </section>
         </section>
 
+        {/* Render the heading for the theory section */}
         <Heading tag="BECOME ONE WITH THE FORCE" title="The Theory Of It All" />
 
+        {/* Render the list of theories */}
         <section className="relative">
           <TheoryList />
           <LeftLine />
           <RightLine />
         </section>
 
+        {/* Link to view all theories */}
         <section className="flex justify-center mt-10">
           <Link
             to="/theoryworks" // Specify the path to the TheoryWorks page

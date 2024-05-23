@@ -6,8 +6,10 @@ import { GradientLight, CardBorder } from "../design/Films";
 import ClipPath from "../assets/svg/ClipPath";
 
 const Films = () => {
+  // State to store the fetched films data
   const [films, setFilms] = useState([]);
 
+  // Fetch films data from the SWAPI API when the component mounts
   useEffect(() => {
     const fetchFilms = async () => {
       try {
@@ -31,6 +33,7 @@ const Films = () => {
         />
 
         <section className="flex flex-wrap gap-10 mb-10">
+          {/* Iterate over each film and render its card */}
           {films.map((film, index) => (
             <article
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
@@ -41,6 +44,7 @@ const Films = () => {
               }}
               key={film.episode_id}
             >
+              {/* Film card content */}
               <section className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{film.title}</h5>
                 <p className="body-2 mb-6 text-n-3">
@@ -54,11 +58,14 @@ const Films = () => {
 
               <GradientLight />
 
+              {/* Background clip path */}
               <section
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
+                {/* Card border */}
                 <CardBorder />
+                {/* Hoverable film image */}
                 <section className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
                   {movies[index % movies.length].imageUrl && (
                     <img

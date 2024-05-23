@@ -9,9 +9,11 @@ const About = () => {
   return (
     <Section crosses id="about">
       <section className="container lg:flex">
+        {/* Left column containing textual content */}
         <article className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">A Look Into What This Is About</h2>
 
+          {/* List of about content items */}
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {aboutContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
@@ -26,12 +28,15 @@ const About = () => {
             ))}
           </ul>
 
+          {/* Button to learn more, linked to the about page */}
           <Button as={Link} to={`/about/0`}>
             Learn More
           </Button>
         </article>
 
+        {/* Right column containing an illustration */}
         <article className="lg:ml-auto xl:w-[38rem] mt-4">
+          {/* Text describing the app */}
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
             {aboutText}
           </p>
@@ -50,6 +55,7 @@ const About = () => {
               </section>
             </section>
 
+            {/* Render rotating app icons */}
             <ul>
               {aboutApps.map((app, index) => (
                 <li
@@ -75,6 +81,7 @@ const About = () => {
               ))}
             </ul>
 
+            {/* Render left and right curve designs */}
             <LeftCurve />
             <RightCurve />
           </figure>
