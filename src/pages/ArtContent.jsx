@@ -61,7 +61,7 @@ const ArtContent = ({ theories }) => {
           backgroundColor: "#0a0321",
         }}
       >
-        <div
+        <aside
           style={{
             position: "absolute",
             top: "10px",
@@ -75,7 +75,7 @@ const ArtContent = ({ theories }) => {
             alt="Close"
             style={{ width: "30px", height: "30px" }}
           />
-        </div>
+        </aside>
         <article
           style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
         >
