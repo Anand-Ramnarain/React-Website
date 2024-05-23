@@ -8,6 +8,7 @@ import Theory from "../components/Theory";
 import Roadmap from "../components/Roadmap";
 
 const Homepage = () => {
+  // Use custom hook for scrolling functionality
   useScrollToSection();
   return (
     <>
