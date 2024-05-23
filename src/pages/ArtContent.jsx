@@ -33,7 +33,7 @@ const ArtContent = ({ theories }) => {
 
   return (
     <>
-      <div
+      <section
         style={{
           position: "fixed",
           top: 0,
@@ -47,7 +47,7 @@ const ArtContent = ({ theories }) => {
           zIndex: 9999,
         }}
         onClick={goBack}
-      ></div>
+      ></section>
 
       <section
         style={{
