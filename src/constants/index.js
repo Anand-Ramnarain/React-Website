@@ -254,6 +254,6 @@ export const socials = [
     id: "1",
     title: "Website",
     iconUrl: arrow,
-    url: "https://anand-ramnarain.github.io/React-Website/",
+    url: "https://github.com/Anand-Ramnarain/React-Website",
   },
 ];
