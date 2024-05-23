@@ -32,32 +32,32 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "/React-Website/",
+    url: "/",
   },
   {
     id: "1",
     title: "About",
-    url: "/React-Website/#about",
+    url: "/#about",
   },
   {
     id: "2",
     title: "Roadmap",
-    url: "/React-Website/design",
+    url: "/design",
   },
   {
     id: "3",
     title: "Films",
-    url: "/React-Website/#films",
+    url: "/#films",
   },
   {
     id: "4",
     title: "Theory",
-    url: "/React-Website/theoryworks",
+    url: "/theoryworks",
   },
   {
     id: "5",
     title: "Art",
-    url: "/React-Website/#art",
+    url: "/#art",
   },
 ];
 
