@@ -3,6 +3,9 @@ import { useParams, useNavigate } from "react-router-dom";
 import Heading from "../components/Heading";
 import { close } from "../assets";
 import Slideshow from "../components/Slideshow";
+import BinaryArt from "./BinaryArt";
+import { imageToBinary } from "../components/imageToBinary";
+import artImage from "../assets/binaryart/image-1.png";
 
 // Function to import all film images from the assets folder
 const importAll = (r) => r.keys().map(r);

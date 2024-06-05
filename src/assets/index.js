@@ -91,8 +91,11 @@ import theoryImage3 from "./arttheory/theory3.png";
 import theoryImage4 from "./arttheory/theory4.png";
 import theoryImage5 from "./arttheory/theory5.png";
 
+import binaryImage from "./binaryart/image-1.png";
+
 export {
   brainwave,
+  binaryImage,
   red,
   blue,
   yellow,
