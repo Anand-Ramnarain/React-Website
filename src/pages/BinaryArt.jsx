@@ -1,65 +1,8 @@
+// BinaryArt.jsx
 import React, { useState, useEffect } from "react";
-import styled, { keyframes } from "styled-components";
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: black;
-`;
-
-const floatUp = keyframes`
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-`;
-
-const ArtBox = styled.div`
-  font-family: Source Code Pro, monospace;
-  white-space: pre;
-  width: 40%;
-  height: 74%;
-  overflow: hidden;
-  border: 2px solid green;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-`;
-
-const ScaleBox = styled.div`
-  transform: scale(${(props) => props.scale});
-  transform-origin: top;
-  width: 100%;
-  height: 100%;
-`;
-
-const Line = styled.div`
-  animation: ${floatUp} 1s ease-in-out forwards;
-  animation-delay: ${(props) => props.delay}s;
-  opacity: 0;
-  line-height: 1.2; /* Adjust line-height as needed */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-const Button = styled.button`
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: green;
-  color: white;
-  border: none;
-  cursor: pointer;
-`;
+import { Container, ArtBox, ScaleBox, Line } from "../design/BinaryArt";
+import Button from "../components/Button";
+import ButtonGradient from "../assets/svg/ButtonGradient";
 
 const BinaryArt = ({ binaryData }) => {
   const [startAnimation, setStartAnimation] = useState(false);
@@ -100,9 +43,7 @@ const BinaryArt = ({ binaryData }) => {
         {startAnimation && (
           <ScaleBox scale={scale}>
             {lines.map((line, index) => (
-              <Line key={index} delay={index * 1}>
-                {" "}
-                {/* Adjust delay as needed */}
+              <Line key={index} delay={index * 0.5}>
                 {line.split("").map((char, charIndex) => (
                   <span key={charIndex} style={getCharStyle(char)}>
                     {char}
@@ -113,6 +54,7 @@ const BinaryArt = ({ binaryData }) => {
           </ScaleBox>
         )}
       </ArtBox>
+      <ButtonGradient />
     </Container>
   );
 };

@@ -17,6 +17,7 @@ const ArtContent = ({ theories }) => {
   // Initialize variables
   const navigate = useNavigate();
   const { id } = useParams();
+  const [binaryData, setBinaryData] = useState("");
   const [backgroundImage, setBackgroundImage] = useState("");
   const theory = theories.find((item) => item.id === id);
 
@@ -26,6 +27,18 @@ const ArtContent = ({ theories }) => {
     const randomImage =
       filmImages[Math.floor(Math.random() * filmImages.length)];
     setBackgroundImage(randomImage);
+  }, []);
+
+  useEffect(() => {
+    async function convertImage() {
+      try {
+        const binary = await imageToBinary(artImage);
+        setBinaryData(binary);
+      } catch (error) {
+        console.error("Error converting image to binary:", error);
+      }
+    }
+    convertImage();
   }, []);
 
   // Function to handle going back
@@ -91,6 +104,7 @@ const ArtContent = ({ theories }) => {
           style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
         >
           <Heading tag="Design" title={theory.title} />
+          <BinaryArt binaryData={binaryData} />
           {/* Render theory content */}
           {theory.content.map((content, index) => (
             <p key={index} style={{ marginBottom: "10px" }}>
@@ -98,9 +112,9 @@ const ArtContent = ({ theories }) => {
             </p>
           ))}
           {/* Render slideshow if pictures are available */}
-          {theory.picture && theory.picture.length > 0 && (
-            <Slideshow images={theory.picture} />
-          )}
+          {/* {theory.picture && theory.picture.length > 0 && ( */}
+          {/* <Slideshow images={theory.picture} /> */}
+          {/* )} */}
         </article>
       </section>
     </>

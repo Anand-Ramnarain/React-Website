@@ -296,7 +296,7 @@ export const art = [
   {
     id: "0",
     title: "Binary Art",
-    picture: [gif2, gif1],
+    picture: [null],
     content: ["STILL TO COME"],
   },
 ];
