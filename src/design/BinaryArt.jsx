@@ -2,6 +2,8 @@
 import styled, { keyframes } from "styled-components";
 
 // Keyframes for the floating-up animation
+//https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php
+//This help in getting the float up effect to work
 const floatUp = keyframes`
   0% {
     transform: translateY(100%);

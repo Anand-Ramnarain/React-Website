@@ -28,6 +28,9 @@ const BinaryArt = ({ binaryData }) => {
       const maxLineLength = Math.max(...dataLines.map((line) => line.length)); // Longest line length in characters.
 
       // Define the dimensions of the art box as a percentage of the viewport. THis is so the binary art can fit in the box.
+      //https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight
+      //https://github.com/w3c/csswg-drafts/issues/5260
+      //THis help me in getting the art work to fit in the box as it was either too big or small to fit
       const artBoxHeight = window.innerHeight * 0.78; // 78% of the viewport height.
       const artBoxWidth = window.innerWidth * 0.8; // 80% of the viewport width.
 
