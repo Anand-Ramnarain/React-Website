@@ -1,7 +1,7 @@
 // Import the Image class from the 'image-js' library, which provides utilities for image processing.
 import { Image } from "image-js";
 
-// Define an asynchronous function that converts an image to a binary string representation.
+// Defines the function that converts a image to a binary string representation.
 export async function imageToBinary(imagePath) {
   // Load the image from the provided path. The Image.load function returns a promise, so we use await.
   const image = await Image.load(imagePath);
@@ -33,3 +33,9 @@ export async function imageToBinary(imagePath) {
   // Return the complete binary string representation of the image.
   return binaryString;
 }
+
+//I found that the image-js doc help in converting the image to a greyscale so i can got through each pixel as assign a 0 or 1 value to it
+//https://www.npmjs.com/package/image-js
+//https://image-js.github.io/image-js/
+//The codde here help in learning how to assign values to the pixels i just had to change it so it would work for react/js
+//https://www.geeksforgeeks.org/matlab-converting-a-grayscale-image-to-binary-image-using-thresholding/

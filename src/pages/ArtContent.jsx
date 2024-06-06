@@ -103,7 +103,7 @@ const ArtContent = ({ theories }) => {
         <article
           style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
         >
-          <Heading tag="Design" title={theory.title} />
+          <Heading tag="Art" title={theory.title} />
           <BinaryArt binaryData={binaryData} />
           {/* Render theory content */}
           {theory.content.map((content, index) => (
