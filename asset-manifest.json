@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Website/static/css/main.2f6c60b5.css",
-    "main.js": "/React-Website/static/js/main.0c300cbc.js",
+    "main.css": "/React-Website/static/css/main.29c63915.css",
+    "main.js": "/React-Website/static/js/main.5551276b.js",
     "static/media/screen.jpg": "/React-Website/static/media/screen.a9c7b46e9414183954d6.jpg",
     "static/media/yoda.gif": "/React-Website/static/media/yoda.998c5005b4e2b51de430.gif",
     "static/media/gradient.png": "/React-Website/static/media/gradient.95e69808fa315a4bddd4.png",
@@ -67,11 +67,11 @@
     "static/media/check.svg": "/React-Website/static/media/check.33e7b06e4e39166447db44185b29e00f.svg",
     "static/media/check-02.svg": "/React-Website/static/media/check-02.792a92d6013520b7971ec390b7c4779f.svg",
     "static/media/lines.svg": "/React-Website/static/media/lines.17a95aa1765601a217ea3799d9cd0001.svg",
-    "main.2f6c60b5.css.map": "/React-Website/static/css/main.2f6c60b5.css.map",
-    "main.0c300cbc.js.map": "/React-Website/static/js/main.0c300cbc.js.map"
+    "main.29c63915.css.map": "/React-Website/static/css/main.29c63915.css.map",
+    "main.5551276b.js.map": "/React-Website/static/js/main.5551276b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f6c60b5.css",
-    "static/js/main.0c300cbc.js"
+    "static/css/main.29c63915.css",
+    "static/js/main.5551276b.js"
   ]
 }
