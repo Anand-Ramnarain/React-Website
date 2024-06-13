@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Website/static/css/main.6ce43713.css",
-    "main.js": "/React-Website/static/js/main.35faf2ac.js",
+    "main.css": "/React-Website/static/css/main.2f6c60b5.css",
+    "main.js": "/React-Website/static/js/main.0c300cbc.js",
     "static/media/screen.jpg": "/React-Website/static/media/screen.a9c7b46e9414183954d6.jpg",
     "static/media/yoda.gif": "/React-Website/static/media/yoda.998c5005b4e2b51de430.gif",
     "static/media/gradient.png": "/React-Website/static/media/gradient.95e69808fa315a4bddd4.png",
     "static/media/c3po.gif": "/React-Website/static/media/c3po.f06f0c4d574e3f108401.gif",
     "static/media/Hero.png": "/React-Website/static/media/Hero.1b228aeefc7fac892b16.png",
-    "static/media/image-1.png": "/React-Website/static/media/image-1.421511e1b2cad534ecd7.png",
+    "static/media/image-1.png": "/React-Website/static/media/image-1.03c6fcea5b0631cc5df9.png",
     "static/media/service-1.png": "/React-Website/static/media/service-1.7708f9443d3706a5c611.png",
     "static/media/men.png": "/React-Website/static/media/men.6c01c6ecda3c797ed98f.png",
     "static/media/attack.png": "/React-Website/static/media/attack.0685302fe25445ac3454.png",
@@ -67,11 +67,11 @@
     "static/media/check.svg": "/React-Website/static/media/check.33e7b06e4e39166447db44185b29e00f.svg",
     "static/media/check-02.svg": "/React-Website/static/media/check-02.792a92d6013520b7971ec390b7c4779f.svg",
     "static/media/lines.svg": "/React-Website/static/media/lines.17a95aa1765601a217ea3799d9cd0001.svg",
-    "main.6ce43713.css.map": "/React-Website/static/css/main.6ce43713.css.map",
-    "main.35faf2ac.js.map": "/React-Website/static/js/main.35faf2ac.js.map"
+    "main.2f6c60b5.css.map": "/React-Website/static/css/main.2f6c60b5.css.map",
+    "main.0c300cbc.js.map": "/React-Website/static/js/main.0c300cbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ce43713.css",
-    "static/js/main.35faf2ac.js"
+    "static/css/main.2f6c60b5.css",
+    "static/js/main.0c300cbc.js"
   ]
 }

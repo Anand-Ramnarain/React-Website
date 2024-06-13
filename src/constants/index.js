@@ -203,7 +203,7 @@ export const theorys = [
     id: "2",
     title: "Exam Research",
     description:
-      "This week marked my return to work after the holiday break. During my time off, I took the opportunity to build my portfolio website using React. This experience gave me a head start in creating a React website for our exercises. While I found the process straightforward due to my prior experience, I encountered some challenges, particularly with pushing my project to GitHub Pages. This obstacle provided a valuable learning opportunity and highlighted areas for improvement in my workflow.A significant portion of this week was dedicated to understanding the concept of internet art, guided by the insightful reading, 'The Work of Art in the Age...",
+      "This week marked my return to work after the holiday break. During my time off, I took the opportunity to build my portfolio website using React. This experience gave me a head start in creating a React website for our exercises. While I found the process straightforward due to my prior experience, I encountered some challenges, particularly with pushing my project to GitHub Pages. This obstacle provided a valuable learning opportunity and highlighted areas for improvement in my workflow.A significant portion of this week was dedicated to understanding the concept of internet art, guided by the insightful reading, 'The Work...",
     link: "#exam",
   },
 ];
